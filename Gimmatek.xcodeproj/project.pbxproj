@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7408B1021FDD2F9400C052D6 /* CUILine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7408B1011FDD2F9400C052D6 /* CUILine.swift */; };
+		74CC23F91FD5616C0015D432 /* GimmatekCacheImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC23F81FD5616C0015D432 /* GimmatekCacheImage.swift */; };
+		74CC23FB1FD8389E0015D432 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC23FA1FD8389E0015D432 /* UIImage.swift */; };
+		74CC23FD1FDAA43D0015D432 /* GimmatekCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC23FC1FDAA43D0015D432 /* GimmatekCollectionViewController.swift */; };
+		74CC23FF1FDAA44F0015D432 /* GimmatekCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC23FE1FDAA44F0015D432 /* GimmatekCollectionViewCell.swift */; };
+		74E70B711FD28E0900A7E381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E70B701FD28E0900A7E381 /* AppDelegate.swift */; };
+		74E70B731FD28E0900A7E381 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E70B721FD28E0900A7E381 /* ViewController.swift */; };
+		74E70B761FD28E0900A7E381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E70B741FD28E0900A7E381 /* Main.storyboard */; };
+		74E70B791FD28E0900A7E381 /* Gimmatek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74E70B771FD28E0900A7E381 /* Gimmatek.xcdatamodeld */; };
+		74E70B7B1FD28E0900A7E381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E70B7A1FD28E0900A7E381 /* Assets.xcassets */; };
+		74E70B7E1FD28E0900A7E381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E70B7C1FD28E0900A7E381 /* LaunchScreen.storyboard */; };
+		74E70B861FD28E2100A7E381 /* Gimmatek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E70B851FD28E2100A7E381 /* Gimmatek.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7408B1011FDD2F9400C052D6 /* CUILine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUILine.swift; sourceTree = "<group>"; };
+		74CC23F81FD5616C0015D432 /* GimmatekCacheImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GimmatekCacheImage.swift; sourceTree = "<group>"; };
+		74CC23FA1FD8389E0015D432 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		74CC23FC1FDAA43D0015D432 /* GimmatekCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GimmatekCollectionViewController.swift; sourceTree = "<group>"; };
+		74CC23FE1FDAA44F0015D432 /* GimmatekCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GimmatekCollectionViewCell.swift; sourceTree = "<group>"; };
+		74E70B6D1FD28E0900A7E381 /* Gimmatek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gimmatek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E70B701FD28E0900A7E381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74E70B721FD28E0900A7E381 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74E70B751FD28E0900A7E381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74E70B781FD28E0900A7E381 /* Gimmatek.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gimmatek.xcdatamodel; sourceTree = "<group>"; };
+		74E70B7A1FD28E0900A7E381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74E70B7D1FD28E0900A7E381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74E70B7F1FD28E0900A7E381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E70B851FD28E2100A7E381 /* Gimmatek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gimmatek.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74E70B6A1FD28E0900A7E381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741E3A3A1FDE896E00CA161F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74CC23FA1FD8389E0015D432 /* UIImage.swift */,
+				7408B1011FDD2F9400C052D6 /* CUILine.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		741E3A3B1FDE89C300CA161F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74E70B851FD28E2100A7E381 /* Gimmatek.swift */,
+				74CC23FE1FDAA44F0015D432 /* GimmatekCollectionViewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		741E3A3C1FDE89F000CA161F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74CC23F81FD5616C0015D432 /* GimmatekCacheImage.swift */,
+				74CC23FC1FDAA43D0015D432 /* GimmatekCollectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		74E70B641FD28E0900A7E381 = {
+			isa = PBXGroup;
+			children = (
+				74E70B6F1FD28E0900A7E381 /* Gimmatek */,
+				74E70B6E1FD28E0900A7E381 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74E70B6E1FD28E0900A7E381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74E70B6D1FD28E0900A7E381 /* Gimmatek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74E70B6F1FD28E0900A7E381 /* Gimmatek */ = {
+			isa = PBXGroup;
+			children = (
+				74E70B701FD28E0900A7E381 /* AppDelegate.swift */,
+				74E70B721FD28E0900A7E381 /* ViewController.swift */,
+				741E3A3C1FDE89F000CA161F /* Controller */,
+				741E3A3B1FDE89C300CA161F /* Model */,
+				741E3A3A1FDE896E00CA161F /* View */,
+				74E70B741FD28E0900A7E381 /* Main.storyboard */,
+				74E70B7A1FD28E0900A7E381 /* Assets.xcassets */,
+				74E70B7C1FD28E0900A7E381 /* LaunchScreen.storyboard */,
+				74E70B7F1FD28E0900A7E381 /* Info.plist */,
+				74E70B771FD28E0900A7E381 /* Gimmatek.xcdatamodeld */,
+			);
+			path = Gimmatek;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74E70B6C1FD28E0900A7E381 /* Gimmatek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E70B821FD28E0900A7E381 /* Build configuration list for PBXNativeTarget "Gimmatek" */;
+			buildPhases = (
+				74E70B691FD28E0900A7E381 /* Sources */,
+				74E70B6A1FD28E0900A7E381 /* Frameworks */,
+				74E70B6B1FD28E0900A7E381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gimmatek;
+			productName = Gimmatek;
+			productReference = 74E70B6D1FD28E0900A7E381 /* Gimmatek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74E70B651FD28E0900A7E381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "林建勳";
+				TargetAttributes = {
+					74E70B6C1FD28E0900A7E381 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6XJ7Z8U7BA;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 74E70B681FD28E0900A7E381 /* Build configuration list for PBXProject "Gimmatek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74E70B641FD28E0900A7E381;
+			productRefGroup = 74E70B6E1FD28E0900A7E381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74E70B6C1FD28E0900A7E381 /* Gimmatek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74E70B6B1FD28E0900A7E381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E70B7E1FD28E0900A7E381 /* LaunchScreen.storyboard in Resources */,
+				74E70B7B1FD28E0900A7E381 /* Assets.xcassets in Resources */,
+				74E70B761FD28E0900A7E381 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74E70B691FD28E0900A7E381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CC23FD1FDAA43D0015D432 /* GimmatekCollectionViewController.swift in Sources */,
+				74CC23FF1FDAA44F0015D432 /* GimmatekCollectionViewCell.swift in Sources */,
+				74CC23FB1FD8389E0015D432 /* UIImage.swift in Sources */,
+				74E70B861FD28E2100A7E381 /* Gimmatek.swift in Sources */,
+				74E70B791FD28E0900A7E381 /* Gimmatek.xcdatamodeld in Sources */,
+				74CC23F91FD5616C0015D432 /* GimmatekCacheImage.swift in Sources */,
+				7408B1021FDD2F9400C052D6 /* CUILine.swift in Sources */,
+				74E70B731FD28E0900A7E381 /* ViewController.swift in Sources */,
+				74E70B711FD28E0900A7E381 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74E70B741FD28E0900A7E381 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E70B751FD28E0900A7E381 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74E70B7C1FD28E0900A7E381 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E70B7D1FD28E0900A7E381 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74E70B801FD28E0900A7E381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74E70B811FD28E0900A7E381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74E70B831FD28E0900A7E381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6XJ7Z8U7BA;
+				INFOPLIST_FILE = Gimmatek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bp102.apns.test.Gimmatek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		74E70B841FD28E0900A7E381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6XJ7Z8U7BA;
+				INFOPLIST_FILE = Gimmatek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bp102.apns.test.Gimmatek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74E70B681FD28E0900A7E381 /* Build configuration list for PBXProject "Gimmatek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E70B801FD28E0900A7E381 /* Debug */,
+				74E70B811FD28E0900A7E381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E70B821FD28E0900A7E381 /* Build configuration list for PBXNativeTarget "Gimmatek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E70B831FD28E0900A7E381 /* Debug */,
+				74E70B841FD28E0900A7E381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		74E70B771FD28E0900A7E381 /* Gimmatek.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74E70B781FD28E0900A7E381 /* Gimmatek.xcdatamodel */,
+			);
+			currentVersion = 74E70B781FD28E0900A7E381 /* Gimmatek.xcdatamodel */;
+			path = Gimmatek.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 74E70B651FD28E0900A7E381 /* Project object */;
+}
