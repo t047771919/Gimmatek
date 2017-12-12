@@ -19,7 +19,10 @@ class GimmatekCollectionViewController: UICollectionViewController,URLSessionDel
     // 取得螢幕的尺寸
     let fullScreenSize = UIScreen.main.bounds.size
     // 修改photo尺寸
-    let reSize = CGSize(width: 323, height: 300)
+    let reSize = CGSize(width: 310, height: 300)
+    // 修改Bighoto尺寸
+    let reBigSize = CGSize(width: 310, height: 800)
+
     
     let parameters = [
         "userlat":24.7844431,
@@ -72,7 +75,6 @@ class GimmatekCollectionViewController: UICollectionViewController,URLSessionDel
         cell.userPhotoImageCollectionViewCell.clipsToBounds = true
         // Configure the cell
         let gimmatek = gimmateks[indexPath.row]
-        if gimmatek.uid != nil {
             let cacheUserPhoto = NSURL(string: gimmatek.userPhoto!)
             cell.cacheImage = cacheUserPhoto // For recycled cells' late image loads.
             if let image = cacheUserPhoto?.cachedImage {
@@ -96,7 +98,7 @@ class GimmatekCollectionViewController: UICollectionViewController,URLSessionDel
             cell.cacheImage = cachePhoto // For recycled cells' late image loads.
             if let image = cachePhoto?.cachedImage {
                 if image.size.height == 1396 {
-                    cell.photoImageCollectionViewCell.image = image
+                    cell.photoImageCollectionViewCell.image = image.reSizeImage(reSize: self.reBigSize)
                     cell.photoImageCollectionViewCell.alpha = 1
                 }else{
                     cell.photoImageCollectionViewCell.image = image.reSizeImage(reSize: self.reSize)
@@ -112,12 +114,12 @@ class GimmatekCollectionViewController: UICollectionViewController,URLSessionDel
                             cell.photoImageCollectionViewCell.alpha = 1
                         }
                     }
+                    collectionView.reloadData()
                 }
             }
             cell.nameLabelCollectionViewCell.text = gimmatek.name
             cell.uidtimeDiffdistanceLabelCollectionViewCell.text = gimmatek.uid! + "." + gimmatek.timeDiff! + "." + gimmatek.distance!
             cell.bodyLabelCollectionViewCell.text = gimmatek.body
-        }
         
         // add border and color
         cell.backgroundColor = UIColor.white
